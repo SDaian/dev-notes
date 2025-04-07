@@ -16,6 +16,11 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "paths": {
+      // "@/hadcn-react/ui": ["./libs/ui/src/ui/*"],
+      // "@/shadcn-react/utils": ["./libs/src/lib/index.ts"],
+      // "@/shadcn-react/styles/*": ["./libs/ui/src/styles/*"]
+    }
   }
 }
